@@ -50,7 +50,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="fixed top-0 left-0 right-0 bg-transparent text-white flex items-center justify-between z-50 px-9 py-10" style={{ height: '60px' }}>
+            <nav className="fixed top-0 left-0 right-0 bg-transparent text-white flex items-center justify-between z-50 px-9 py-10 hover:bg-white" style={{ height: '60px' }}>
                 <div className="flex items-center">
                     <Link href="/">
                         <Image
@@ -61,6 +61,12 @@ const Navbar = () => {
                             className="object-contain"
                         />
                     </Link>
+                </div>
+                {/* Enlaces de navegación */}
+                <div className="flex space-x-4">
+                    <Link href="/about" className="text-gray-800 text-xl">About</Link>
+                    <Link href="/services" className="text-gray-800 text-xl">Services</Link>
+                    <Link href="/contact" className="text-gray-800 text-xl">Contact</Link>
                 </div>
                 <div className="flex items-center gap-3">
                     <button aria-label="Toggle Menu">
@@ -81,7 +87,7 @@ const Navbar = () => {
             </nav>
 
             <div
-                className={`w-1/2 md:w-1/2 lg:w-1/3 absolute top-16 right-0 bg-gray-100 text-gray-500 transition-transform duration-300 ease-in-out ${isOpen ? 'h-81' : 'h-0'} overflow-hidden z-40 rounded-xl`}
+                className={`w-1/2 md:w-1/2 lg:w-1/3 absolute top-16 right-0 bg-gray-100 text-gray-500 transition-transform duration-300 ease-in-out ${isOpen ? 'h-81' : 'h-0'} overflow-hidden z-40 rounded-xl mt-4`}
             >
                 <div className="flex flex-wrap">
                     {renderBranches(branches)}
