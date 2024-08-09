@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Banner = ({
+const BannerPartners = ({
     imageUrl,
     leftTitle,
     leftSubtitle,
@@ -45,4 +45,4 @@ const Banner = ({
     );
 };
 
-export default Banner;
+export default BannerPartners;

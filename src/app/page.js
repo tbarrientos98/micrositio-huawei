@@ -1,5 +1,5 @@
 import Hero from "@/components/shared/Hero/Hero"
-import Banner from "@/components/shared/Banner/Banner"
+import Banner from "@/components/shared/Banner/BannerPartners"
 
 export default function Home() {
   return (
