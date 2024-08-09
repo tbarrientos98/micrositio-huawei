@@ -1,13 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-
-const slides = [
-    { id: 1, title: 'Slide 1', subtitle: 'Subtitle 1', imageUrl: '/slider/slide1.jpg' },
-    { id: 2, title: 'Slide 2', subtitle: 'Subtitle 2', imageUrl: '/slider/slide2.jpg' },
-    { id: 3, title: 'Slide 3', subtitle: 'Subtitle 3', imageUrl: '/slider/slide3.png' },
-    { id: 4, title: 'Slide 4', subtitle: 'Subtitle 4', imageUrl: '/slider/slide4.jpg' },
-    { id: 5, title: 'Slide 5', subtitle: 'Subtitle 5', imageUrl: '/slider/slide5.jpg' },
-];
+import slides from '@/constants/slider.json';
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
