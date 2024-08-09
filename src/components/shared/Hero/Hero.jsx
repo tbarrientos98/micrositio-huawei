@@ -20,7 +20,7 @@ const Hero = () => {
         return () => clearInterval(interval);
     }, []);
 
-    const { title, subtitle, imageUrl } = slides[currentSlide];
+    const { imageUrl } = slides[currentSlide];
 
     return (
         <>

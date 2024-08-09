@@ -62,7 +62,7 @@ const Navbar = () => {
                         />
                     </Link>
                 </div>
-                {/* Enlaces de navegación */}
+    
                 <div className="flex space-x-4">
                     <Link href="/about" className="text-gray-800 text-xl">About</Link>
                     <Link href="/services" className="text-gray-800 text-xl">Services</Link>
