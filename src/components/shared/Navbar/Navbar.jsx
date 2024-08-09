@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import branches from '@/constants/sucursales.json';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const UserIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
@@ -24,6 +25,8 @@ const ArrowDownIcon = () => (
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const { pathname } = useRouter();
+    const isHome = pathname === '/';
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -36,7 +39,6 @@ const Navbar = () => {
                 <div className="flex justify-center my-4">
                     <div className="w-full border-t border-gray-300"></div>
                 </div>
-
                 <ul>
                     {countries.map((country, index) => (
                         <li key={index} className="hover:text-red-500 cursor-pointer">
@@ -50,8 +52,12 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="fixed top-0 left-0 right-0 bg-transparent text-white flex items-center justify-between z-50 px-9 py-10 hover:bg-white" style={{ height: '60px' }}>
-                <div className="flex items-center">
+            <nav
+                className={`fixed top-0 left-0 right-0 px-9 py-10 z-50 transition-all duration-300 ${isHome ? 'bg-transparent text-white' : 'bg-white text-gray-800'
+                    } ${isHome ? 'absolute' : 'relative'} ${isHome ? 'shadow-lg' : 'shadow-none'}`}
+                style={{ height: '60px' }}
+            >
+                <div className="flex items-center justify-between">
                     <Link href="/">
                         <Image
                             src="/brand/logo-huawei.png"
@@ -61,27 +67,24 @@ const Navbar = () => {
                             className="object-contain"
                         />
                     </Link>
-                </div>
-    
-                <div className="flex space-x-4">
-                    <Link href="/about" className="text-gray-800 text-xl">About</Link>
-                    <Link href="/services" className="text-gray-800 text-xl">Services</Link>
-                    <Link href="/contact" className="text-gray-800 text-xl">Contact</Link>
-                </div>
-                <div className="flex items-center gap-3">
-                    <button aria-label="Toggle Menu">
-                        <SearchIcon />
-                    </button>
-
-                    <button aria-label="Toggle Menu">
-                        <UserIcon />
-                    </button>
-
-                    <div className="flex justify-center items-center" onClick={toggleMenu}>
-                        <button aria-label="Toggle Menu" className="text-black text-xl">
-                            Global
+                    <div className="flex space-x-4">
+                        <Link href="/" className={`text-xl ${isHome ? 'text-white' : 'text-gray-800'}`}>Home</Link>
+                        <Link href="/store" className={`text-xl ${isHome ? 'text-white' : 'text-gray-800'}`}>Store</Link>
+                        <Link href="/service" className={`text-xl ${isHome ? 'text-white' : 'text-gray-800'}`}>Service</Link>
+                    </div>
+                    <div className="flex items-center gap-3">
+                        <button aria-label="Toggle Menu">
+                            <SearchIcon />
                         </button>
-                        <ArrowDownIcon />
+                        <button aria-label="Toggle Menu">
+                            <UserIcon />
+                        </button>
+                        <div className="flex items-center" onClick={toggleMenu}>
+                            <button aria-label="Toggle Menu" className={`text-xl ${isHome ? 'text-white' : 'text-black'}`}>
+                                Global
+                            </button>
+                            <ArrowDownIcon />
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -93,7 +96,6 @@ const Navbar = () => {
                     {renderBranches(branches)}
                 </div>
             </div>
-
         </div>
     );
 };

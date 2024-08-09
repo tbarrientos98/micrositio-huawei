@@ -12,7 +12,7 @@ const fontSans = FontSans({
 
 export const metadata = {
   title: "HUAWEI eKit",
-  description: "Sitio web de Huawei eKit",
+  description: "Sitio web de Huawei",
 };
 
 export default function RootLayout({ children }) {
