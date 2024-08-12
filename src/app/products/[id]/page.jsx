@@ -1,13 +1,13 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
 import products from '@/constants/products.json';
 
 const ProductDetail = ({ params }) => {
     const { id } = params;
-    const product = findProductById(id); // Busco el producto por ID
+    const product = findProductById(id);
     const [selectedModel, setSelectedModel] = useState(null);
-    const [selectedSection, setSelectedSection] = useState('Overview'); // Estado para la sección seleccionada
+    const [selectedSection, setSelectedSection] = useState('Overview');
 
     if (!product) {
         return (
@@ -20,7 +20,7 @@ const ProductDetail = ({ params }) => {
                         height={300}
                     />
                     <br />
-                    <h1 className="text-3xl font-bold">Producto no encontrado en la sección</h1>
+                    <h1 className="text-3xl font-bold">Product not found</h1>
                     <br />
                 </div>
             </div>
@@ -30,7 +30,6 @@ const ProductDetail = ({ params }) => {
     return (
         <div className="p-6 container mx-auto">
             <div className="flex flex-col lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-6">
-                {/* Contenedor izquierdo (tiene solo la imagen por ahora) */}
                 <div className="w-full lg:w-1/2 flex-shrink-0">
                     <Image
                         src={product.src}
@@ -41,7 +40,6 @@ const ProductDetail = ({ params }) => {
                     />
                 </div>
 
-                {/* Contenedor derecho */}
                 <div className="w-full lg:w-1/2 text-center lg:text-left">
                     <h1 className="text-4xl font-bold mb-4">
                         {product.title} {selectedModel ? ` ${selectedModel.name}` : ''}
@@ -54,7 +52,6 @@ const ProductDetail = ({ params }) => {
 
                     <div className="flex flex-col items-center lg:items-start space-y-4">
                         <h1 className="text-xl font-bold text-gray-800">Select model</h1>
-                        {/* Muestro los modelos de forma dinamica buscandolos en el json */}
                         {product.models && product.models.map((model, index) => (
                             <button
                                 key={index}
@@ -74,7 +71,6 @@ const ProductDetail = ({ params }) => {
                 </div>
             </div>
 
-            {/* Seccion - Aca pongo las especificaciones de cada producto */}
             <div className="mt-12">
                 <hr className="w-full border-t-2 border-gray-300 mb-4" />
 
@@ -91,25 +87,57 @@ const ProductDetail = ({ params }) => {
                 </div>
 
                 <hr className="w-full border-t-2 border-gray-300 mt-4" />
+
                 <div className="mt-6">
                     {selectedSection === 'Overview' && (
                         <div>
                             <h2 className="text-2xl font-bold">Product Overview</h2>
+                            <br />
+                            <div className="flex justify-center">
+                                {product.overview ? (
+                                    <Image
+                                        width={1200}
+                                        height={400}
+                                        src={product.overview}
+                                        alt="Product Overview"
+                                    />
+                                ) : (
+                                    <p className="text-gray-500">No overview available</p>
+                                )}
+                            </div>
                         </div>
                     )}
-                    {selectedSection === 'Specifications' && (
-                        <div>
-                            <h2 className="text-2xl font-bold">Product Specifications</h2>
+                
+                {selectedSection === 'Specifications' && (
+                    <div className="bg-gray-100 p-6">
+                        <h2 className="text-2xl font-bold">Product Specifications</h2>
+                        <div className="p-4">
+                            {product.specifications && Object.entries(product.specifications).length > 0 ? (
+                                Object.entries(product.specifications).map(([key, value], index) => (
+                                    <>
+                                        <div key={index} className="mb-2">
+                                            <span className="font-bold">{key}:</span> {value}
+                                        </div>
+                                        <div className="my-6 flex justify-center">
+                                            <hr className="w-full border-t-2 border-gray-300" />
+                                        </div>
+                                    </>
+                                ))
+                            ) : (
+                                <p>No specification for this product</p>
+                            )}
                         </div>
-                    )}
-                    {selectedSection === 'Documentation' && (
-                        <div>
-                            <h2 className="text-2xl font-bold">Product Documentation</h2>
-                        </div>
-                    )}
-                </div>
+                    </div>
+                )}
+                {selectedSection === 'Documentation' && (
+                    <div>
+                        <h2 className="text-2xl font-bold">Product Documentation</h2>
+                        {/* Aca voy a colocar pdfs */}
+                    </div>
+                )}
             </div>
         </div>
+        </div >
     );
 };
 

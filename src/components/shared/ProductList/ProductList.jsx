@@ -6,7 +6,7 @@ const ProductList = () => {
     // Desestructuro los productos y las marcas del JSON
     const { "SME NETWORK": smeNetwork, "Data Storage": dataStorage, "IdeaHub": ideaHub } = products;
 
-    // Función para renderizar los productos por marca
+    // Funcion para renderizar los productos por marca
     const renderProductsPorMarca = (brandName, productList) => (
         <div className="my-8 container">
             <div className="flex items-start mb-4">

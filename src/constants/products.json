@@ -5,10 +5,55 @@
             "title": "Huawei SuperPhone X1",
             "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
             "src": "/products/cardimg.png",
+            "overview": "/products/overview.png",
+            "specifications": {
+                "Installation-Type": "Wall pole",
+                "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
+                "Weight without packaging [kg(lb)]": "1.91 kg",
+                "Weight with packaging [kg(lb)]": "3.73 kg",
+                "Power supply mode": "PoE",
+                "Input voltage range [V]": "PoE: 802.3at/af",
+                "Service port surge protection": "PoE port: Common mode (8 wires to ground): 6 kV (1.2/50 us, 42 ohms), criterion B Differential mode (48 V-RTN): 0.5 kV (1.2/50 us, 42 ohms), criterion B",
+                "Maximum number of physical ports on the entire device": "GE (RJ45) x 1, 10M/100M/1000M auto-sensing GE SFP x 1",
+                "Long-term operating temperature [°C(°F)]": "-40°C to 65°C(From 1800 m to 5000 m [5905.51 ft. to 16404.20 ft.], the maximum temperature of the device decreases by 1°C [1.8°F] for every 300 m [984.25 ft.] increase in altitude.)",
+                "Storage temperature [°C(°F)]": "–40°C to +80°C",
+                "Long-term operating relative humidity [RH]": "0% RH ～ 100% RH",
+                "Long-term operating altitude [m(ft.)]": "–60 m to +5000 m (–196.85 ft to +16404.20 ft)",
+                "Atmospheric pressure [kPa]": "53kPa - 106kPa ETSI 300 019-2-3",
+                "Ground": "earthing ground",
+                "Radio number": "2",
+                "MIMO spatial streams": "Radio 0 (2.4 GHz): 2x2 Radio 1 (5 GHz): 2x2",
+                "Wi-Fi standard": "2.4G:802.11b/g/n/ax 5G:802.11a/n/ac/ac wave2/ax",
+                "Radio interface": "Built-in directional antenna",
+                "Antenna gain": "2.4G:10dBi 5G:11dBi BLE:5dBi",
+                "Maximum transmit power": "2.4G: 28dBm(Max) 5G: 27dBm(Max) (note: this is MIMO total radio power, the same as: 2.4G: 25dBm/chain(Max) 5G : 24dBm/chain(Max)) BLE：＜10dBm"
+            },
             "models": [
                 {
                     "name": "SuperPhone X1 128GB",
-                    "description": "128GB de almacenamiento, 8GB de RAM."
+                    "description": "128GB de almacenamiento, 8GB de RAM.",
+                    "specifications": {
+                        "Installation-Type": "Wall pole",
+                        "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
+                        "Weight without packaging [kg(lb)]": "1.91 kg",
+                        "Weight with packaging [kg(lb)]": "3.73 kg",
+                        "Power supply mode": "PoE",
+                        "Input voltage range [V]": "PoE: 802.3at/af",
+                        "Service port surge protection": "PoE port: Common mode (8 wires to ground): 6 kV (1.2/50 us, 42 ohms), criterion B Differential mode (48 V-RTN): 0.5 kV (1.2/50 us, 42 ohms), criterion B",
+                        "Maximum number of physical ports on the entire device": "GE (RJ45) x 1, 10M/100M/1000M auto-sensing GE SFP x 1",
+                        "Long-term operating temperature [°C(°F)]": "-40°C to 65°C",
+                        "Storage temperature [°C(°F)]": "–40°C to +80°C",
+                        "Long-term operating relative humidity [RH]": "0% RH ～ 100% RH",
+                        "Long-term operating altitude [m(ft.)]": "–60 m to +5000 m",
+                        "Atmospheric pressure [kPa]": "53kPa - 106kPa",
+                        "Ground": "earthing ground",
+                        "Radio number": "2",
+                        "MIMO spatial streams": "Radio 0 (2.4 GHz): 2x2 Radio 1 (5 GHz): 2x2",
+                        "Wi-Fi standard": "2.4G:802.11b/g/n/ax 5G:802.11a/n/ac/ac wave2/ax",
+                        "Radio interface": "Built-in directional antenna",
+                        "Antenna gain": "2.4G:10dBi 5G:11dBi BLE:5dBi",
+                        "Maximum transmit power": "2.4G: 28dBm(Max) 5G: 27dBm(Max)"
+                    }
                 },
                 {
                     "name": "SuperPhone X1 256GB",
@@ -25,6 +70,29 @@
             "title": "Huawei SmartWatch 2",
             "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
             "src": "/products/cardimg.png",
+            "overview": "/products/overview.png",
+            "specifications": {
+                "Installation-Type": "Wall pole",
+                "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
+                "Weight without packaging [kg(lb)]": "1.91 kg",
+                "Weight with packaging [kg(lb)]": "3.73 kg",
+                "Power supply mode": "PoE",
+                "Input voltage range [V]": "PoE: 802.3at/af",
+                "Service port surge protection": "PoE port: Common mode (8 wires to ground): 6 kV (1.2/50 us, 42 ohms), criterion B Differential mode (48 V-RTN): 0.5 kV (1.2/50 us, 42 ohms), criterion B",
+                "Maximum number of physical ports on the entire device": "GE (RJ45) x 1, 10M/100M/1000M auto-sensing GE SFP x 1",
+                "Long-term operating temperature [°C(°F)]": "-40°C to 65°C(From 1800 m to 5000 m [5905.51 ft. to 16404.20 ft.], the maximum temperature of the device decreases by 1°C [1.8°F] for every 300 m [984.25 ft.] increase in altitude.)",
+                "Storage temperature [°C(°F)]": "–40°C to +80°C",
+                "Long-term operating relative humidity [RH]": "0% RH ～ 100% RH",
+                "Long-term operating altitude [m(ft.)]": "–60 m to +5000 m (–196.85 ft to +16404.20 ft)",
+                "Atmospheric pressure [kPa]": "53kPa - 106kPa ETSI 300 019-2-3",
+                "Ground": "earthing ground",
+                "Radio number": "2",
+                "MIMO spatial streams": "Radio 0 (2.4 GHz): 2x2 Radio 1 (5 GHz): 2x2",
+                "Wi-Fi standard": "2.4G:802.11b/g/n/ax 5G:802.11a/n/ac/ac wave2/ax",
+                "Radio interface": "Built-in directional antenna",
+                "Antenna gain": "2.4G:10dBi 5G:11dBi BLE:5dBi",
+                "Maximum transmit power": "2.4G: 28dBm(Max) 5G: 27dBm(Max) (note: this is MIMO total radio power, the same as: 2.4G: 25dBm/chain(Max) 5G : 24dBm/chain(Max)) BLE：＜10dBm"
+            },
             "models": [
                 {
                     "name": "SmartWatch 2 Classic",
@@ -41,6 +109,7 @@
             "title": "Huawei Tablet Pro",
             "description": "La Huawei Tablet Pro es ideal para trabajar y jugar, con una pantalla de alta resolución.",
             "src": "/products/cardimg.png",
+            "overview": "/products/overview.png",
             "models": [
                 {
                     "name": "Tablet Pro 10.1",
@@ -57,6 +126,7 @@
             "title": "Huawei EarBuds Max",
             "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido superior con cancelación de ruido activa.",
             "src": "/products/cardimg.png",
+            "overview": "/products/overview.png",
             "models": [
                 {
                     "name": "EarBuds Max Standard",
@@ -91,6 +161,7 @@
             "title": "Huawei SuperPhone X1",
             "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
             "src": "/products/dataStorage.png",
+            "overview": "/products/overview.png",
             "models": [
                 {
                     "name": "SuperPhone X1 128GB",
@@ -107,6 +178,28 @@
             "title": "Huawei SmartWatch 2",
             "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
             "src": "/products/dataStorage.png",
+            "specifications": {
+                "Installation-Type": "Wall pole",
+                "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
+                "Weight without packaging [kg(lb)]": "1.91 kg",
+                "Weight with packaging [kg(lb)]": "3.73 kg",
+                "Power supply mode": "PoE",
+                "Input voltage range [V]": "PoE: 802.3at/af",
+                "Service port surge protection": "PoE port: Common mode (8 wires to ground): 6 kV (1.2/50 us, 42 ohms), criterion B Differential mode (48 V-RTN): 0.5 kV (1.2/50 us, 42 ohms), criterion B",
+                "Maximum number of physical ports on the entire device": "GE (RJ45) x 1, 10M/100M/1000M auto-sensing GE SFP x 1",
+                "Long-term operating temperature [°C(°F)]": "-40°C to 65°C(From 1800 m to 5000 m [5905.51 ft. to 16404.20 ft.], the maximum temperature of the device decreases by 1°C [1.8°F] for every 300 m [984.25 ft.] increase in altitude.)",
+                "Storage temperature [°C(°F)]": "–40°C to +80°C",
+                "Long-term operating relative humidity [RH]": "0% RH ～ 100% RH",
+                "Long-term operating altitude [m(ft.)]": "–60 m to +5000 m (–196.85 ft to +16404.20 ft)",
+                "Atmospheric pressure [kPa]": "53kPa - 106kPa ETSI 300 019-2-3",
+                "Ground": "earthing ground",
+                "Radio number": "2",
+                "MIMO spatial streams": "Radio 0 (2.4 GHz): 2x2 Radio 1 (5 GHz): 2x2",
+                "Wi-Fi standard": "2.4G:802.11b/g/n/ax 5G:802.11a/n/ac/ac wave2/ax",
+                "Radio interface": "Built-in directional antenna",
+                "Antenna gain": "2.4G:10dBi 5G:11dBi BLE:5dBi",
+                "Maximum transmit power": "2.4G: 28dBm(Max) 5G: 27dBm(Max) (note: this is MIMO total radio power, the same as: 2.4G: 25dBm/chain(Max) 5G : 24dBm/chain(Max)) BLE：＜10dBm"
+            },
             "models": [
                 {
                     "name": "SmartWatch 2 Classic",
@@ -155,6 +248,28 @@
             "title": "Huawei UltraBook Z",
             "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
             "src": "/products/dataStorage.png",
+            "specifications": {
+                "Installation-Type": "Wall pole",
+                "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
+                "Weight without packaging [kg(lb)]": "1.91 kg",
+                "Weight with packaging [kg(lb)]": "3.73 kg",
+                "Power supply mode": "PoE",
+                "Input voltage range [V]": "PoE: 802.3at/af",
+                "Service port surge protection": "PoE port: Common mode (8 wires to ground): 6 kV (1.2/50 us, 42 ohms), criterion B Differential mode (48 V-RTN): 0.5 kV (1.2/50 us, 42 ohms), criterion B",
+                "Maximum number of physical ports on the entire device": "GE (RJ45) x 1, 10M/100M/1000M auto-sensing GE SFP x 1",
+                "Long-term operating temperature [°C(°F)]": "-40°C to 65°C(From 1800 m to 5000 m [5905.51 ft. to 16404.20 ft.], the maximum temperature of the device decreases by 1°C [1.8°F] for every 300 m [984.25 ft.] increase in altitude.)",
+                "Storage temperature [°C(°F)]": "–40°C to +80°C",
+                "Long-term operating relative humidity [RH]": "0% RH ～ 100% RH",
+                "Long-term operating altitude [m(ft.)]": "–60 m to +5000 m (–196.85 ft to +16404.20 ft)",
+                "Atmospheric pressure [kPa]": "53kPa - 106kPa ETSI 300 019-2-3",
+                "Ground": "earthing ground",
+                "Radio number": "2",
+                "MIMO spatial streams": "Radio 0 (2.4 GHz): 2x2 Radio 1 (5 GHz): 2x2",
+                "Wi-Fi standard": "2.4G:802.11b/g/n/ax 5G:802.11a/n/ac/ac wave2/ax",
+                "Radio interface": "Built-in directional antenna",
+                "Antenna gain": "2.4G:10dBi 5G:11dBi BLE:5dBi",
+                "Maximum transmit power": "2.4G: 28dBm(Max) 5G: 27dBm(Max) (note: this is MIMO total radio power, the same as: 2.4G: 25dBm/chain(Max) 5G : 24dBm/chain(Max)) BLE：＜10dBm"
+            },
             "models": [
                 {
                     "name": "UltraBook Z i5",
@@ -173,6 +288,28 @@
             "title": "Huawei SuperPhone X1",
             "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
             "src": "/products/ideaHubProducts.png",
+            "specifications": {
+                "Installation-Type": "Wall pole",
+                "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
+                "Weight without packaging [kg(lb)]": "1.91 kg",
+                "Weight with packaging [kg(lb)]": "3.73 kg",
+                "Power supply mode": "PoE",
+                "Input voltage range [V]": "PoE: 802.3at/af",
+                "Service port surge protection": "PoE port: Common mode (8 wires to ground): 6 kV (1.2/50 us, 42 ohms), criterion B Differential mode (48 V-RTN): 0.5 kV (1.2/50 us, 42 ohms), criterion B",
+                "Maximum number of physical ports on the entire device": "GE (RJ45) x 1, 10M/100M/1000M auto-sensing GE SFP x 1",
+                "Long-term operating temperature [°C(°F)]": "-40°C to 65°C(From 1800 m to 5000 m [5905.51 ft. to 16404.20 ft.], the maximum temperature of the device decreases by 1°C [1.8°F] for every 300 m [984.25 ft.] increase in altitude.)",
+                "Storage temperature [°C(°F)]": "–40°C to +80°C",
+                "Long-term operating relative humidity [RH]": "0% RH ～ 100% RH",
+                "Long-term operating altitude [m(ft.)]": "–60 m to +5000 m (–196.85 ft to +16404.20 ft)",
+                "Atmospheric pressure [kPa]": "53kPa - 106kPa ETSI 300 019-2-3",
+                "Ground": "earthing ground",
+                "Radio number": "2",
+                "MIMO spatial streams": "Radio 0 (2.4 GHz): 2x2 Radio 1 (5 GHz): 2x2",
+                "Wi-Fi standard": "2.4G:802.11b/g/n/ax 5G:802.11a/n/ac/ac wave2/ax",
+                "Radio interface": "Built-in directional antenna",
+                "Antenna gain": "2.4G:10dBi 5G:11dBi BLE:5dBi",
+                "Maximum transmit power": "2.4G: 28dBm(Max) 5G: 27dBm(Max) (note: this is MIMO total radio power, the same as: 2.4G: 25dBm/chain(Max) 5G : 24dBm/chain(Max)) BLE：＜10dBm"
+            },
             "models": [
                 {
                     "name": "SuperPhone X1 128GB",
@@ -189,6 +326,7 @@
             "title": "Huawei SmartWatch 2",
             "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
             "src": "/products/ideaHubProducts.png",
+            "overview": "/products/overview.png",
             "models": [
                 {
                     "name": "SmartWatch 2 Classic",
@@ -237,6 +375,28 @@
             "title": "Huawei UltraBook Z",
             "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
             "src": "/products/ideaHubProducts.png",
+            "specifications": {
+                "Installation-Type": "Wall pole",
+                "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
+                "Weight without packaging [kg(lb)]": "1.91 kg",
+                "Weight with packaging [kg(lb)]": "3.73 kg",
+                "Power supply mode": "PoE",
+                "Input voltage range [V]": "PoE: 802.3at/af",
+                "Service port surge protection": "PoE port: Common mode (8 wires to ground): 6 kV (1.2/50 us, 42 ohms), criterion B Differential mode (48 V-RTN): 0.5 kV (1.2/50 us, 42 ohms), criterion B",
+                "Maximum number of physical ports on the entire device": "GE (RJ45) x 1, 10M/100M/1000M auto-sensing GE SFP x 1",
+                "Long-term operating temperature [°C(°F)]": "-40°C to 65°C(From 1800 m to 5000 m [5905.51 ft. to 16404.20 ft.], the maximum temperature of the device decreases by 1°C [1.8°F] for every 300 m [984.25 ft.] increase in altitude.)",
+                "Storage temperature [°C(°F)]": "–40°C to +80°C",
+                "Long-term operating relative humidity [RH]": "0% RH ～ 100% RH",
+                "Long-term operating altitude [m(ft.)]": "–60 m to +5000 m (–196.85 ft to +16404.20 ft)",
+                "Atmospheric pressure [kPa]": "53kPa - 106kPa ETSI 300 019-2-3",
+                "Ground": "earthing ground",
+                "Radio number": "2",
+                "MIMO spatial streams": "Radio 0 (2.4 GHz): 2x2 Radio 1 (5 GHz): 2x2",
+                "Wi-Fi standard": "2.4G:802.11b/g/n/ax 5G:802.11a/n/ac/ac wave2/ax",
+                "Radio interface": "Built-in directional antenna",
+                "Antenna gain": "2.4G:10dBi 5G:11dBi BLE:5dBi",
+                "Maximum transmit power": "2.4G: 28dBm(Max) 5G: 27dBm(Max) (note: this is MIMO total radio power, the same as: 2.4G: 25dBm/chain(Max) 5G : 24dBm/chain(Max)) BLE：＜10dBm"
+            },
             "models": [
                 {
                     "name": "UltraBook Z i5",
