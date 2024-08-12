@@ -3,96 +3,250 @@
         {
             "alias": "sme-network-product-1",
             "title": "Huawei SuperPhone X1",
-            "description": "El Huawei SuperPhone X1 combina ...",
-            "src": "/products/cardimg.png"
+            "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
+            "src": "/products/cardimg.png",
+            "models": [
+                {
+                    "name": "SuperPhone X1 128GB",
+                    "description": "128GB de almacenamiento, 8GB de RAM."
+                },
+                {
+                    "name": "SuperPhone X1 256GB",
+                    "description": "256GB de almacenamiento, 12GB de RAM."
+                },
+                {
+                    "name": "SuperPhone X1 500GB",
+                    "description": "500GB de almacenamiento, 12GB de RAM."
+                }
+            ]
         },
         {
             "alias": "sme-network-product-2",
             "title": "Huawei SmartWatch 2",
-            "description": "El Huawei SmartWatch 2 ofrece una....",
-            "src": "/products/cardimg.png"
+            "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
+            "src": "/products/cardimg.png",
+            "models": [
+                {
+                    "name": "SmartWatch 2 Classic",
+                    "description": "Versión clásica con correa de cuero."
+                },
+                {
+                    "name": "SmartWatch 2 Sport",
+                    "description": "Versión deportiva con correa de silicona."
+                }
+            ]
         },
         {
             "alias": "sme-network-product-3",
             "title": "Huawei Tablet Pro",
-            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar...",
-            "src": "/products/cardimg.png"
+            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar, con una pantalla de alta resolución.",
+            "src": "/products/cardimg.png",
+            "models": [
+                {
+                    "name": "Tablet Pro 10.1",
+                    "description": "Pantalla de 10.1 pulgadas, 64GB de almacenamiento."
+                },
+                {
+                    "name": "Tablet Pro 12.9",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                }
+            ]
         },
         {
             "alias": "sme-network-product-4",
             "title": "Huawei EarBuds Max",
-            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido ...",
-            "src": "/products/cardimg.png"
+            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido superior con cancelación de ruido activa.",
+            "src": "/products/cardimg.png",
+            "models": [
+                {
+                    "name": "EarBuds Max Standard",
+                    "description": "Versión estándar con estuche de carga."
+                },
+                {
+                    "name": "EarBuds Max Pro",
+                    "description": "Versión Pro con estuche de carga inalámbrica."
+                }
+            ]
         },
         {
             "alias": "sme-network-product-5",
             "title": "Huawei UltraBook Z",
-            "description": "El Huawei UltraBook Z es un portátil ultrafino ...",
-            "src": "/products/cardimg.png"
+            "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
+            "src": "/products/cardimg.png",
+            "models": [
+                {
+                    "name": "UltraBook Z i5",
+                    "description": "Procesador Intel Core i5, 256GB SSD."
+                },
+                {
+                    "name": "UltraBook Z i7",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                }
+            ]
         }
     ],
     "Data Storage": [
         {
             "alias": "data-storage-product-1",
             "title": "Huawei SuperPhone X1",
-            "description": "El Huawei SuperPhone X1 combina ...",
-            "src": "/products/dataStorage.png"
+            "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
+            "src": "/products/dataStorage.png",
+            "models": [
+                {
+                    "name": "SuperPhone X1 128GB",
+                    "description": "128GB de almacenamiento, 8GB de RAM."
+                },
+                {
+                    "name": "SuperPhone X1 256GB",
+                    "description": "256GB de almacenamiento, 12GB de RAM."
+                }
+            ]
         },
         {
             "alias": "data-storage-product-2",
             "title": "Huawei SmartWatch 2",
-            "description": "El Huawei SmartWatch 2 ofrece una....",
-            "src": "/products/dataStorage.png"
+            "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
+            "src": "/products/dataStorage.png",
+            "models": [
+                {
+                    "name": "SmartWatch 2 Classic",
+                    "description": "Versión clásica con correa de cuero."
+                },
+                {
+                    "name": "SmartWatch 2 Sport",
+                    "description": "Versión deportiva con correa de silicona."
+                }
+            ]
         },
         {
             "alias": "data-storage-product-3",
             "title": "Huawei Tablet Pro",
-            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar...",
-            "src": "/products/dataStorage.png"
+            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar, con una pantalla de alta resolución.",
+            "src": "/products/dataStorage.png",
+            "models": [
+                {
+                    "name": "Tablet Pro 10.1",
+                    "description": "Pantalla de 10.1 pulgadas, 64GB de almacenamiento."
+                },
+                {
+                    "name": "Tablet Pro 12.9",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                }
+            ]
         },
         {
             "alias": "data-storage-product-4",
             "title": "Huawei EarBuds Max",
-            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido ...",
-            "src": "/products/dataStorage.png"
+            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido superior con cancelación de ruido activa.",
+            "src": "/products/dataStorage.png",
+            "models": [
+                {
+                    "name": "EarBuds Max Standard",
+                    "description": "Versión estándar con estuche de carga."
+                },
+                {
+                    "name": "EarBuds Max Pro",
+                    "description": "Versión Pro con estuche de carga inalámbrica."
+                }
+            ]
         },
         {
             "alias": "data-storage-product-5",
             "title": "Huawei UltraBook Z",
-            "description": "El Huawei UltraBook Z es un portátil ultrafino ...",
-            "src": "/products/dataStorage.png"
+            "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
+            "src": "/products/dataStorage.png",
+            "models": [
+                {
+                    "name": "UltraBook Z i5",
+                    "description": "Procesador Intel Core i5, 256GB SSD."
+                },
+                {
+                    "name": "UltraBook Z i7",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                }
+            ]
         }
     ],
     "IdeaHub": [
         {
             "alias": "ideahub-product-1",
             "title": "Huawei SuperPhone X1",
-            "description": "El Huawei SuperPhone X1 combina ...",
-            "src": "/products/ideaHubProducts.png"
+            "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
+            "src": "/products/ideaHubProducts.png",
+            "models": [
+                {
+                    "name": "SuperPhone X1 128GB",
+                    "description": "128GB de almacenamiento, 8GB de RAM."
+                },
+                {
+                    "name": "SuperPhone X1 256GB",
+                    "description": "256GB de almacenamiento, 12GB de RAM."
+                }
+            ]
         },
         {
             "alias": "ideahub-product-2",
             "title": "Huawei SmartWatch 2",
-            "description": "El Huawei SmartWatch 2 ofrece una....",
-            "src": "/products/ideaHubProducts.png"
+            "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
+            "src": "/products/ideaHubProducts.png",
+            "models": [
+                {
+                    "name": "SmartWatch 2 Classic",
+                    "description": "Versión clásica con correa de cuero."
+                },
+                {
+                    "name": "SmartWatch 2 Sport",
+                    "description": "Versión deportiva con correa de silicona."
+                }
+            ]
         },
         {
             "alias": "ideahub-product-3",
             "title": "Huawei Tablet Pro",
-            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar...",
-            "src": "/products/ideaHubProducts.png"
+            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar, con una pantalla de alta resolución.",
+            "src": "/products/ideaHubProducts.png",
+            "models": [
+                {
+                    "name": "Tablet Pro 10.1",
+                    "description": "Pantalla de 10.1 pulgadas, 64GB de almacenamiento."
+                },
+                {
+                    "name": "Tablet Pro 12.9",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                }
+            ]
         },
         {
             "alias": "ideahub-product-4",
             "title": "Huawei EarBuds Max",
-            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido ...",
-            "src": "/products/ideaHubProducts.png"
+            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido superior con cancelación de ruido activa.",
+            "src": "/products/ideaHubProducts.png",
+            "models": [
+                {
+                    "name": "EarBuds Max Standard",
+                    "description": "Versión estándar con estuche de carga."
+                },
+                {
+                    "name": "EarBuds Max Pro",
+                    "description": "Versión Pro con estuche de carga inalámbrica."
+                }
+            ]
         },
         {
             "alias": "ideahub-product-5",
             "title": "Huawei UltraBook Z",
-            "description": "El Huawei UltraBook Z es un portátil ultrafino ...",
-            "src": "/products/ideaHubProducts.png"
+            "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
+            "src": "/products/ideaHubProducts.png",
+            "models": [
+                {
+                    "name": "UltraBook Z i5",
+                    "description": "Procesador Intel Core i5, 256GB SSD."
+                },
+                {
+                    "name": "UltraBook Z i7",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                }
+            ]
         }
     ]
 }

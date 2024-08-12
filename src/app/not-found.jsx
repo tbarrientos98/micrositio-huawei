@@ -36,7 +36,6 @@ const NotFound = () => {
                 <br />
                 <h1 className="text-3xl text-red-500 font-bold">La pagina a la que desea acceder no existe</h1>
                 <br />
-
                 <p className="mt-4 text-black font-bold text-xl text-slate-800">
                     Serás redirigido a Home en {countdown} segundos...
                 </p>
