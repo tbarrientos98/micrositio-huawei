@@ -1,7 +1,10 @@
 import Image from "next/image";
+import ContainerHome from "@/components/ContainerHome";
 
 export default function Home() {
   return (
-    <h1>Esta es la ruta principal </h1>
+    <>
+      <ContainerHome />
+    </>
   );
 }
