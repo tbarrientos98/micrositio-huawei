@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Hero />
       <Banner
-        imageUrl="/banners/banner-partners.png"
+        imageUrl="/imagenes/banner-partners.png"
         leftTitle="Become a Distribution Partner and Join Us on the Way to Success"
         leftSubtitle="Become a certified distribution partner and gain more support from Huawei"
         leftButtonText="Register as a Sales Partner"

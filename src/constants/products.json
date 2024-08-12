@@ -1,0 +1,98 @@
+{
+    "SME NETWORK": [
+        {
+            "alias": "sme-network-product-1",
+            "title": "Huawei SuperPhone X1",
+            "description": "El Huawei SuperPhone X1 combina ...",
+            "src": "/products/cardimg.png"
+        },
+        {
+            "alias": "sme-network-product-2",
+            "title": "Huawei SmartWatch 2",
+            "description": "El Huawei SmartWatch 2 ofrece una....",
+            "src": "/products/cardimg.png"
+        },
+        {
+            "alias": "sme-network-product-3",
+            "title": "Huawei Tablet Pro",
+            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar...",
+            "src": "/products/cardimg.png"
+        },
+        {
+            "alias": "sme-network-product-4",
+            "title": "Huawei EarBuds Max",
+            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido ...",
+            "src": "/products/cardimg.png"
+        },
+        {
+            "alias": "sme-network-product-5",
+            "title": "Huawei UltraBook Z",
+            "description": "El Huawei UltraBook Z es un portátil ultrafino ...",
+            "src": "/products/cardimg.png"
+        }
+    ],
+    "Data Storage": [
+        {
+            "alias": "data-storage-product-1",
+            "title": "Huawei SuperPhone X1",
+            "description": "El Huawei SuperPhone X1 combina ...",
+            "src": "/products/dataStorage.png"
+        },
+        {
+            "alias": "data-storage-product-2",
+            "title": "Huawei SmartWatch 2",
+            "description": "El Huawei SmartWatch 2 ofrece una....",
+            "src": "/products/dataStorage.png"
+        },
+        {
+            "alias": "data-storage-product-3",
+            "title": "Huawei Tablet Pro",
+            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar...",
+            "src": "/products/dataStorage.png"
+        },
+        {
+            "alias": "data-storage-product-4",
+            "title": "Huawei EarBuds Max",
+            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido ...",
+            "src": "/products/dataStorage.png"
+        },
+        {
+            "alias": "data-storage-product-5",
+            "title": "Huawei UltraBook Z",
+            "description": "El Huawei UltraBook Z es un portátil ultrafino ...",
+            "src": "/products/dataStorage.png"
+        }
+    ],
+    "IdeaHub": [
+        {
+            "alias": "ideahub-product-1",
+            "title": "Huawei SuperPhone X1",
+            "description": "El Huawei SuperPhone X1 combina ...",
+            "src": "/products/ideaHubProducts.png"
+        },
+        {
+            "alias": "ideahub-product-2",
+            "title": "Huawei SmartWatch 2",
+            "description": "El Huawei SmartWatch 2 ofrece una....",
+            "src": "/products/ideaHubProducts.png"
+        },
+        {
+            "alias": "ideahub-product-3",
+            "title": "Huawei Tablet Pro",
+            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar...",
+            "src": "/products/ideaHubProducts.png"
+        },
+        {
+            "alias": "ideahub-product-4",
+            "title": "Huawei EarBuds Max",
+            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido ...",
+            "src": "/products/ideaHubProducts.png"
+        },
+        {
+            "alias": "ideahub-product-5",
+            "title": "Huawei UltraBook Z",
+            "description": "El Huawei UltraBook Z es un portátil ultrafino ...",
+            "src": "/products/ideaHubProducts.png"
+        }
+    ]
+}

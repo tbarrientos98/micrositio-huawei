@@ -8,6 +8,10 @@
         "path": "/store"
     },
     {
+        "name": "Solution",
+        "path": "/solution"
+    },
+    {
         "name": "Service",
         "path": "/service"
     }

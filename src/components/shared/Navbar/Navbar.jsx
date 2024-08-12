@@ -9,9 +9,9 @@ import { UserIcon, SearchIcon, ArrowDownIcon } from "@/utilities/icons/heroIcons
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const { pathname } = usePathname();
+    const pathname = usePathname();
 
-    const isHome = pathname === '/';
+    const isHome = pathname === '/'; // Si se quiere agregar validaciones con el pathname se peuden crear mas variables con el /nombredelpath
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -38,8 +38,8 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className={`fixed top-0 left-0 right-0 px-9 py-10 z-50 transition-all duration-300 ${isHome ? 'bg-transparent text-white' : 'bg-white'
-                    } ${isHome ? 'absolute' : 'relative'} ${isHome ? 'shadow-lg' : 'shadow-none'}`}
+                className={`fixed top-0 left-0 right-0 px-9 py-10 z-50 transition-all duration-300 ${isHome ? 'bg-transparent' : 'bg-white'
+                    } ${isHome ? 'absolute' : 'relative'} ${isHome ? 'shadow-none' : 'shadow-none'}`}
                 style={{ height: '60px' }}
             >
                 <div className="flex items-center justify-between">
@@ -75,7 +75,7 @@ const Navbar = () => {
                             <UserIcon />
                         </button>
                         <div className="flex items-center" onClick={toggleMenu}>
-                            <button aria-label="Toggle Menu" className={`text-xl ${isHome ? 'text-white' : 'text-black'}`}>
+                            <button aria-label="Toggle Menu" className={`text-xl ${isHome ? 'text-black' : 'text-black'}`}>
                                 Global
                             </button>
                             <ArrowDownIcon />
