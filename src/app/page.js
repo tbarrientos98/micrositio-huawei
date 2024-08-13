@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <ContainerHome />
       <Banner
         imageUrl="/imagenes/banner-partners.png"
         leftTitle="Become a Distribution Partner and Join Us on the Way to Success"
@@ -16,7 +17,6 @@ export default function Home() {
         rightTitle="Procurement Consulting"
         rightSubtitle="Please fill in the purchase request and we will contact you as soon as possible."
       />
-      <ContainerHome />
     </>
   );
 }
