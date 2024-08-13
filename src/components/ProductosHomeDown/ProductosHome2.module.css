@@ -34,7 +34,7 @@
     gap: 20px;
 }
 
-.producto2, .producto3 {
+.producto2, .producto3, .producto4, .producto5 {
     background-color: #fff;
     padding: 20px;
     flex-basis: calc(49% - 5px); /* Ajusta el ancho restando el gap */
@@ -47,7 +47,7 @@
     gap: 10px;
 }
 .productH5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }

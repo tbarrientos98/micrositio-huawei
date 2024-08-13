@@ -9,7 +9,7 @@ const containerHome = () => {
 	return (
 		<div className={` w-full mx-auto`}>
 			<div className={styles.container}>
-				<div className='text-center mb-40'>
+				<div className='text-center mb-10'>
 					<h2 className={styles.title}>HUAWEI eKit Selection</h2>
 					<div className="container flex flex-col gap-5">
 						<div className={styles.imageContainer}>
