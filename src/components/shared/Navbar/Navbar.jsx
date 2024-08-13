@@ -5,16 +5,26 @@ import branches from '@/constants/sucursales.json';
 import navLinks from '@/constants/navlinks.json';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { UserIcon, SearchIcon, ArrowDownIcon } from "@/utilities/icons/heroIcons"
+import { UserIcon, SearchIcon, ArrowDownIcon, Bars3Icon, XMarkIcon } from "@/utilities/icons/heroIcons";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const pathname = usePathname();
 
-    const isHome = pathname === '/'; // Si se quiere agregar validaciones con el pathname se peuden crear mas variables con el /nombredelpath
+    const isHome = pathname === '/';
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+        if (isDropdownOpen) {
+            setIsDropdownOpen(false);
+        }
+    };
+
+    const toggleDropdown = () => {
+        if (!isOpen) {
+            setIsDropdownOpen(!isDropdownOpen);
+        }
     };
 
     const renderBranches = (group) => {
@@ -38,8 +48,7 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className={`fixed top-0 left-0 right-0 px-9 py-10 z-50 transition-all duration-300 ${isHome ? 'bg-transparent' : 'bg-white'
-                    } ${isHome ? 'absolute' : 'relative'} ${isHome ? 'shadow-none' : 'shadow-none'}`}
+                className={`fixed top-0 left-0 right-0 px-4 py-5 z-50 transition-all duration-300 ${isHome ? 'bg-transparent' : 'bg-white'} ${isHome ? 'absolute' : 'relative'}`}
                 style={{ height: '60px' }}
             >
                 <div className="flex items-center justify-between">
@@ -47,17 +56,17 @@ const Navbar = () => {
                         <Image
                             src="/brand/logo-huawei.png"
                             alt="Logo"
-                            width={200}
-                            height={100}
+                            width={120}
+                            height={60}
                             className="object-contain"
                         />
                     </Link>
-                    <div className="flex space-x-4">
+                    <div className="hidden md:flex space-x-4">
                         {navLinks.map((link) => (
                             <div key={link.path} className="relative inline-block">
                                 <Link
                                     href={link.path}
-                                    className={`text-xl ${pathname === link.path ? 'text-red-500' : 'text-gray-800'}`}
+                                    className={`text-lg ${pathname === link.path ? 'text-red-500' : 'text-gray-800'}`}
                                 >
                                     {link.name}
                                 </Link>
@@ -68,29 +77,44 @@ const Navbar = () => {
                         ))}
                     </div>
                     <div className="flex items-center gap-3">
-                        <button aria-label="Toggle Menu">
+                        <button aria-label="Search">
                             <SearchIcon />
                         </button>
-                        <button aria-label="Toggle Menu">
+                        <button aria-label="User">
                             <UserIcon />
                         </button>
-                        <div className="flex items-center" onClick={toggleMenu}>
-                            <button aria-label="Toggle Menu" className={`text-xl ${isHome ? 'text-black' : 'text-black'}`}>
-                                Global
+                        <div className="relative">
+                            <button aria-label="Toggle Dropdown" className="text-lg flex items-center" onClick={toggleDropdown}>
+                                Global <ArrowDownIcon />
                             </button>
-                            <ArrowDownIcon />
+                            {isDropdownOpen && (
+                                <div className="absolute right-0 mt-2 w-48 md:w-96 bg-white border border-gray-200 shadow-lg rounded-lg p-4 z-50">
+                                    {renderBranches(branches)}
+                                </div>
+                            )}
                         </div>
+                        <button
+                            aria-label="Toggle Menu"
+                            className="md:hidden flex items-center justify-center"
+                            onClick={toggleMenu}
+                        >
+                            {isOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
+                        </button>
                     </div>
                 </div>
             </nav>
 
-            <div
-                className={`w-1/2 md:w-1/2 lg:w-1/3 absolute top-16 right-0 bg-gray-100 text-gray-500 transition-transform duration-300 ease-in-out ${isOpen ? 'h-81' : 'h-0'} overflow-hidden z-40 rounded-xl mt-4`}
-            >
-                <div className="flex flex-wrap">
-                    {renderBranches(branches)}
+            {isOpen && (
+                <div className="md:hidden bg-gray-100 text-gray-800 absolute top-16 right-0 left-0 p-4 z-40 rounded-xl shadow-lg">
+                    {navLinks.map((link) => (
+                        <div key={link.path} className="py-2">
+                            <Link href={link.path} className="block text-lg" onClick={toggleMenu}>
+                                {link.name}
+                            </Link>
+                        </div>
+                    ))}
                 </div>
-            </div>
+            )}
         </div>
     );
 };
