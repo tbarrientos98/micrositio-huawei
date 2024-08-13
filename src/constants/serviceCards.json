@@ -78,20 +78,20 @@
     "Bulletins": [
         {
             "id": 1,
-            "title": "User Manual",
-            "subtitle": "Complete user guide for our software.",
+            "title": "Product Bulletins",
+            "subtitle": "Product lifecycle, pre-warning, rectification.",
             "icon": "productbulletins"
         },
         {
             "id": 2,
-            "title": "API Documentation",
-            "subtitle": "Detailed API reference for developers.",
+            "title": "Security Bulletins",
+            "subtitle": "Product Safety Information Notice.",
             "icon": "securitybulletins"
         },
         {
             "id": 3,
-            "title": "Installation Guide",
-            "subtitle": "Step-by-step installation instructions.",
+            "title": "Service Bulletins",
+            "subtitle": "Software bulletins, Information periodicals.",
             "icon": "servicebulletins"
         }
     ]

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import styles from './ProductCard.module.css'; 
 
 const ProductCard = ({ src, title, description, alias }) => {
     return (
@@ -17,7 +18,9 @@ const ProductCard = ({ src, title, description, alias }) => {
                 </div>
                 <div className="p-4">
                     <h3 className="text-lg font-semibold text-gray-800 text-center">{title}</h3>
-                    <h4 className="text-md font-medium text-gray-600 text-center mt-2">{description}</h4>
+                    <h4 className={`text-md font-medium text-gray-400 font-bold text-center mt-2 ${styles.truncate}`}>
+                        {description}
+                    </h4>
                 </div>
             </Link>
         </div>

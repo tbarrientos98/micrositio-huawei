@@ -2,8 +2,8 @@
     "SME NETWORK": [
         {
             "alias": "sme-network-product-1",
-            "title": "Huawei SuperPhone X1",
-            "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
+            "title": "AP761",
+            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE)",
             "src": "/products/cardimg.png",
             "overview": "/products/overview.png",
             "specifications": {
@@ -30,7 +30,7 @@
             },
             "models": [
                 {
-                    "name": "SuperPhone X1 128GB",
+                    "name": "AP761",
                     "description": "128GB de almacenamiento, 8GB de RAM.",
                     "specifications": {
                         "Installation-Type": "Wall pole",
@@ -56,19 +56,23 @@
                     }
                 },
                 {
-                    "name": "SuperPhone X1 256GB",
+                    "name": "AP761 (Powered via indoor PoE adapter)",
                     "description": "256GB de almacenamiento, 12GB de RAM."
                 },
                 {
-                    "name": "SuperPhone X1 500GB",
+                    "name": "AP761 (Powered via indoor PoE switch)",
+                    "description": "500GB de almacenamiento, 12GB de RAM."
+                },
+                {
+                    "name": "AP761 (powered via indoor PoE adapter; electrical port for uplink)",
                     "description": "500GB de almacenamiento, 12GB de RAM."
                 }
             ]
         },
         {
             "alias": "sme-network-product-2",
-            "title": "Huawei SmartWatch 2",
-            "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
+            "title": "AP761",
+            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE)",
             "src": "/products/cardimg.png",
             "overview": "/products/overview.png",
             "specifications": {
@@ -95,61 +99,73 @@
             },
             "models": [
                 {
-                    "name": "SmartWatch 2 Classic",
+                    "name": "AP761",
                     "description": "Versión clásica con correa de cuero."
                 },
                 {
-                    "name": "SmartWatch 2 Sport",
+                    "name": "AP761 (powered via outdoor PoE adapter; optical port for uplink)",
+                    "description": "Versión clásica con correa de cuero."
+                },
+                {
+                    "name": "AP761 (powered via indoor PoE switch; electrical port for uplink)",
+                    "description": "Versión clásica con correa de cuero."
+                },
+                {
+                    "name": "AP761 (powered via indoor PoE adapter; electrical port for uplink)",
                     "description": "Versión deportiva con correa de silicona."
                 }
             ]
         },
         {
             "alias": "sme-network-product-3",
-            "title": "Huawei Tablet Pro",
-            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar, con una pantalla de alta resolución.",
+            "title": "AP761 (powered via outdoor PoE adapter; optical port for uplink)",
+            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE).",
             "src": "/products/cardimg.png",
             "overview": "/products/overview.png",
             "models": [
                 {
-                    "name": "Tablet Pro 10.1",
+                    "name": "AP761",
                     "description": "Pantalla de 10.1 pulgadas, 64GB de almacenamiento."
                 },
                 {
-                    "name": "Tablet Pro 12.9",
+                    "name": "(powered via outdoor PoE adapter; optical port for uplink)",
                     "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
                 }
             ]
         },
         {
             "alias": "sme-network-product-4",
-            "title": "Huawei EarBuds Max",
-            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido superior con cancelación de ruido activa.",
+            "title": "AP761",
+            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE).",
             "src": "/products/cardimg.png",
             "overview": "/products/overview.png",
             "models": [
                 {
-                    "name": "EarBuds Max Standard",
+                    "name": "AP761",
                     "description": "Versión estándar con estuche de carga."
                 },
                 {
-                    "name": "EarBuds Max Pro",
+                    "name": "AP761 (powered via outdoor PoE adapter; optical port for uplink)",
                     "description": "Versión Pro con estuche de carga inalámbrica."
                 }
             ]
         },
         {
             "alias": "sme-network-product-5",
-            "title": "Huawei UltraBook Z",
-            "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
-            "src": "/products/cardimg.png",
+            "title": "S530-48S4XE",
+            "description": "S530-48S4XE(48*GE SFP ports, 4*10GE SFP+ ports, 2*12GE stack ports, with 1*AC power module)",
+            "src": "/products/cardimg2.png",
             "models": [
                 {
-                    "name": "UltraBook Z i5",
+                    "name": "S530-24T4XE",
                     "description": "Procesador Intel Core i5, 256GB SSD."
                 },
                 {
-                    "name": "UltraBook Z i7",
+                    "name": "S530-48S4XE",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S530-24ST4XE",
                     "description": "Procesador Intel Core i7, 512GB SSD."
                 }
             ]
@@ -158,25 +174,33 @@
     "Data Storage": [
         {
             "alias": "data-storage-product-1",
-            "title": "Huawei SuperPhone X1",
-            "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
+            "title": "5120-S-L-64G-AC",
+            "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 64GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+) 4*SAS3.0 port,12*3.5 Inch SAS,SPE26C0212).",
             "src": "/products/dataStorage.png",
             "overview": "/products/overview.png",
             "models": [
                 {
-                    "name": "SuperPhone X1 128GB",
+                    "name": "5120-S-L-64G-AC",
                     "description": "128GB de almacenamiento, 8GB de RAM."
                 },
                 {
-                    "name": "SuperPhone X1 256GB",
+                    "name": "5120-S-L-32G-AC",
+                    "description": "256GB de almacenamiento, 12GB de RAM."
+                },
+                {
+                    "name": "5120-S-S-64G-AC",
+                    "description": "256GB de almacenamiento, 12GB de RAM."
+                },
+                {
+                    "name": "5120-S-S-32G-AC",
                     "description": "256GB de almacenamiento, 12GB de RAM."
                 }
             ]
         },
         {
             "alias": "data-storage-product-2",
-            "title": "Huawei SmartWatch 2",
-            "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
+            "title": "5120-S-S-64G-AC",
+            "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 32GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,25*2.5 Inch SAS,SPE26C0225)",
             "src": "/products/dataStorage.png",
             "specifications": {
                 "Installation-Type": "Wall pole",
@@ -202,52 +226,76 @@
             },
             "models": [
                 {
-                    "name": "SmartWatch 2 Classic",
+                    "name": "5120-S-S-32G-AC",
                     "description": "Versión clásica con correa de cuero."
                 },
                 {
-                    "name": "SmartWatch 2 Sport",
+                    "name": "5120-S-S-64G-AC",
+                    "description": "Versión deportiva con correa de silicona."
+                },
+                {
+                    "name": "5120-S-L-32G-AC",
+                    "description": "Versión deportiva con correa de silicona."
+                },
+                {
+                    "name": "5120-S-L-64G-AC",
                     "description": "Versión deportiva con correa de silicona."
                 }
             ]
         },
         {
             "alias": "data-storage-product-3",
-            "title": "Huawei Tablet Pro",
-            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar, con una pantalla de alta resolución.",
+            "title": "5120-S-L-32G-AC",
+            "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 32GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,12*3.5 Inch SAS,SPE26C0212)",
             "src": "/products/dataStorage.png",
             "models": [
                 {
-                    "name": "Tablet Pro 10.1",
+                    "name": "5120-S-S-32G-AC",
                     "description": "Pantalla de 10.1 pulgadas, 64GB de almacenamiento."
                 },
                 {
-                    "name": "Tablet Pro 12.9",
+                    "name": "5120-S-S-64G-AC",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                },
+                {
+                    "name": "5120-S-L-32G-AC",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                },
+                {
+                    "name": "5120-S-L-64G-AC",
                     "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
                 }
             ]
         },
         {
             "alias": "data-storage-product-4",
-            "title": "Huawei EarBuds Max",
-            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido superior con cancelación de ruido activa.",
+            "title": "5120-S-S-32G-AC",
+            "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 32GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,25*2.5 Inch SAS,SPE26C0225)",
             "src": "/products/dataStorage.png",
             "models": [
                 {
-                    "name": "EarBuds Max Standard",
+                    "name": "5120-S-S-32G-AC",
                     "description": "Versión estándar con estuche de carga."
                 },
                 {
-                    "name": "EarBuds Max Pro",
+                    "name": "5120-S-S-64G-AC",
+                    "description": "Versión Pro con estuche de carga inalámbrica."
+                },
+                {
+                    "name": "5120-S-L-32G-AC",
+                    "description": "Versión estándar con estuche de carga."
+                },
+                {
+                    "name": "5120-S-L-64G-AC",
                     "description": "Versión Pro con estuche de carga inalámbrica."
                 }
             ]
         },
         {
             "alias": "data-storage-product-5",
-            "title": "Huawei UltraBook Z",
-            "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
-            "src": "/products/dataStorage.png",
+            "title": "5220-S-L-64G-AC",
+            "description": "5220(2U, Dual Controllers, SAS, AC240V HVDC, 64GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,12*3.5 Inch SAS,SPE26C0212)",
+            "src": "/products/datastorage2.png",
             "specifications": {
                 "Installation-Type": "Wall pole",
                 "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
@@ -272,11 +320,19 @@
             },
             "models": [
                 {
-                    "name": "UltraBook Z i5",
+                    "name": "5220-S-L-64G-AC",
                     "description": "Procesador Intel Core i5, 256GB SSD."
                 },
                 {
-                    "name": "UltraBook Z i7",
+                    "name": "5220-S-S-96G-AC",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "5220-S-S-64G-AC",
+                    "description": "Procesador Intel Core i5, 256GB SSD."
+                },
+                {
+                    "name": "5220-S-L-96G-AC",
                     "description": "Procesador Intel Core i7, 512GB SSD."
                 }
             ]
@@ -285,8 +341,8 @@
     "IdeaHub": [
         {
             "alias": "ideahub-product-1",
-            "title": "Huawei SuperPhone X1",
-            "description": "El Huawei SuperPhone X1 combina rendimiento y diseño en un solo dispositivo.",
+            "title": "IdeaHub B3-86",
+            "description": "HUAWEI IdeaHub B3,IHB3-86SA,Intelligent Collaboration Device 86-inch infrared screen,Jade white,overseas",
             "src": "/products/ideaHubProducts.png",
             "specifications": {
                 "Installation-Type": "Wall pole",
@@ -312,69 +368,85 @@
             },
             "models": [
                 {
-                    "name": "SuperPhone X1 128GB",
+                    "name": "IdeaHub B3-86",
                     "description": "128GB de almacenamiento, 8GB de RAM."
                 },
                 {
-                    "name": "SuperPhone X1 256GB",
+                    "name": "IdeaHub B3-65",
+                    "description": "256GB de almacenamiento, 12GB de RAM."
+                },
+                {
+                    "name": "IdeaHub B3-75",
                     "description": "256GB de almacenamiento, 12GB de RAM."
                 }
             ]
         },
         {
             "alias": "ideahub-product-2",
-            "title": "Huawei SmartWatch 2",
-            "description": "El Huawei SmartWatch 2 ofrece una experiencia de usuario avanzada con múltiples funcionalidades.",
+            "title": "IHB2-86SU",
+            "description": "HUAWEI IdeaHub Board 2,IHB2-86SU,Intelligent Collaboration Device 86-inch infrared screen,Jade white,overseas",
             "src": "/products/ideaHubProducts.png",
             "overview": "/products/overview.png",
             "models": [
                 {
-                    "name": "SmartWatch 2 Classic",
+                    "name": "IHB2-86SU",
                     "description": "Versión clásica con correa de cuero."
                 },
                 {
-                    "name": "SmartWatch 2 Sport",
+                    "name": "IHB2-75SU",
+                    "description": "Versión deportiva con correa de silicona."
+                },
+                {
+                    "name": "IHB2-65SU",
                     "description": "Versión deportiva con correa de silicona."
                 }
             ]
         },
         {
             "alias": "ideahub-product-3",
-            "title": "Huawei Tablet Pro",
-            "description": "La Huawei Tablet Pro es ideal para trabajar y jugar, con una pantalla de alta resolución.",
-            "src": "/products/ideaHubProducts.png",
+            "title": "IHB2-75SU",
+            "description": "HUAWEI IdeaHub Board 2,IHB2-75SU,Intelligent Collaboration Device 75-inch infrared screen,Jade white,overseas",
+            "src": "/products/ideahub3.png",
             "models": [
                 {
-                    "name": "Tablet Pro 10.1",
+                    "name": "IHB2-86SU",
                     "description": "Pantalla de 10.1 pulgadas, 64GB de almacenamiento."
                 },
                 {
-                    "name": "Tablet Pro 12.9",
+                    "name": "IHB2-75SU",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                },
+                {
+                    "name": "IHB2-65SU",
                     "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
                 }
             ]
         },
         {
             "alias": "ideahub-product-4",
-            "title": "Huawei EarBuds Max",
-            "description": "Los Huawei EarBuds Max ofrecen una calidad de sonido superior con cancelación de ruido activa.",
-            "src": "/products/ideaHubProducts.png",
+            "title": "IHB2-65SU",
+            "description": "HUAWEI IdeaHub Board 2,IHB2-65SU,Intelligent Collaboration Device 65-inch infrared screen,Jade white,overseas",
+            "src": "/products/ideahub3.png",
             "models": [
                 {
-                    "name": "EarBuds Max Standard",
+                    "name": "IHB2-86SU",
                     "description": "Versión estándar con estuche de carga."
                 },
                 {
-                    "name": "EarBuds Max Pro",
+                    "name": "IHB2-75SU",
+                    "description": "Versión Pro con estuche de carga inalámbrica."
+                },
+                {
+                    "name": "IHB2-65SU",
                     "description": "Versión Pro con estuche de carga inalámbrica."
                 }
             ]
         },
         {
             "alias": "ideahub-product-5",
-            "title": "Huawei UltraBook Z",
-            "description": "El Huawei UltraBook Z es un portátil ultrafino con potencia para todas tus necesidades.",
-            "src": "/products/ideaHubProducts.png",
+            "title": "IdeaHub B2-65",
+            "description": "HUAWEI IdeaHub B2 is the next-generation intelligent meeting panel that delivers HD cloud conferencing. With dual Wi-Fi design and an optical anti-blue light feature, it offers an upgraded projection and writing experience perfect for multiple office environments, including meeting rooms, manager offices, and open office areas.",
+            "src": "/products/ideahub5.png",
             "specifications": {
                 "Installation-Type": "Wall pole",
                 "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
@@ -399,11 +471,15 @@
             },
             "models": [
                 {
-                    "name": "UltraBook Z i5",
+                    "name": "IdeaHub B2-65",
                     "description": "Procesador Intel Core i5, 256GB SSD."
                 },
                 {
-                    "name": "UltraBook Z i7",
+                    "name": "IdeaHub B2-75",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "IdeaHub B2-86",
                     "description": "Procesador Intel Core i7, 512GB SSD."
                 }
             ]
