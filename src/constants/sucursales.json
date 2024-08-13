@@ -1,33 +1,27 @@
 {
     "ABCDE": [
         "Argentina",
-        "Australia",
-        "Austria"
+        "Chile",
+        "Costa Rica"
     ],
     "EFGHI": [
-        "Egypt",
-        "Ethiopia"
+        "El Salvador",
+        "Estados Unidos",
+        "Honduras",
+        "Hong Kong",
+        "Guatemala"
     ],
     "JKLMN": [
-        "Japan",
-        "Kenya",
-        "Mexico",
-        "Nigeria"
+        "Jamaica"
     ],
     "OPQRS": [
-        "Oman",
-        "Pakistan",
-        "Qatar",
-        "Russia",
-        "Saudi Arabia"
+        "Panama",
+        "Paraguay",
+        "Puerto Rico",
+        "Republica Dominicana"
     ],
     "TUVWX": [
-        "Turkey",
-        "Ukraine",
-        "Vietnam"
-    ],
-    "YZ": [
-        "Yemen",
-        "Zambia"
+        "Trinidad y Tobago",
+        "Uruguay"
     ]
 }
