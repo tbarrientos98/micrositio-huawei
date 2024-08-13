@@ -1,0 +1,54 @@
+.container {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 36px;
+    margin: 25px 0px;
+}
+
+/************************************ TESTO DENTRO DE IMAGEN */
+.imageText {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    max-width: fit-content;
+}
+
+.parrafos {
+    margin-bottom: 22px;
+    opacity: 4;
+    color: #0000007e;
+    overflow: hidden;
+    width: 55%;
+}
+.btnMore {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 22px 40px;
+    border-radius: 30px;
+}
+/************************************ TESTO DENTRO DE IMAGEN */
+
+.img{
+    border-radius: 16px;
+}
+

@@ -1,5 +1,7 @@
 import Hero from "@/components/shared/Hero/Hero"
 import Banner from "@/components/shared/Banner/BannerPartners"
+import Image from "next/image";
+import ContainerHome from "@/components/ContainerHome";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
         rightTitle="Procurement Consulting"
         rightSubtitle="Please fill in the purchase request and we will contact you as soon as possible."
       />
+      <ContainerHome />
     </>
   );
 }
