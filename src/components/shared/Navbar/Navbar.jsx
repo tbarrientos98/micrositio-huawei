@@ -29,7 +29,7 @@ const Navbar = () => {
 
     const renderBranches = (group) => {
         return Object.entries(group).map(([letter, countries]) => (
-            <div key={letter} className="p-4">
+            <div key={letter} className="p-4 min-w-[150px]">
                 <h2 className="text-lg text-red-500 font-bold">{letter}</h2>
                 <div className="flex justify-center my-4">
                     <div className="w-full border-t border-gray-300"></div>
@@ -48,7 +48,7 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className={`fixed top-0 left-0 right-0 px-4 py-5 z-50 transition-all duration-300 ${isHome ? 'bg-transparent' : 'bg-white'} ${isHome ? 'absolute' : 'relative'}`}
+                className={`container fixed top-0 left-0 right-0 px-4 py-5 z-50 transition-all mb-2 duration-300 ${isHome ? 'bg-transparent' : 'bg-white'} ${isHome ? 'absolute' : 'relative'}`}
                 style={{ height: '60px' }}
             >
                 <div className="flex items-center justify-between">
@@ -56,8 +56,8 @@ const Navbar = () => {
                         <Image
                             src="/brand/logo-huawei.png"
                             alt="Logo"
-                            width={120}
-                            height={60}
+                            width={200}
+                            height={100}
                             className="object-contain"
                         />
                     </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
                                 Global <ArrowDownIcon />
                             </button>
                             {isDropdownOpen && (
-                                <div className="absolute right-0 mt-2 w-48 md:w-96 bg-white border border-gray-200 shadow-lg rounded-lg p-4 z-50">
+                                <div className={`absolute right-0 mt-2 bg-white border border-gray-200 shadow-lg rounded-lg p-4 z-50 w-screen md:w-[600px] md:flex md:flex-wrap md:gap-4`}>
                                     {renderBranches(branches)}
                                 </div>
                             )}
