@@ -11,7 +11,7 @@ const BannerPartners = ({
     rightSubtitle,
 }) => {
     return (
-        <div className="container relative w-full h-72 md:h-72 lg:h-72 overflow-hidden rounded-xl shadow-xl">
+        <div className="container relative w-full h-72 md:h-72 lg:h-72 overflow-hidden rounded-xl shadow-xl mt-6 mb-6">
             <Image
                 src={imageUrl}
                 alt="Banner Partners"
