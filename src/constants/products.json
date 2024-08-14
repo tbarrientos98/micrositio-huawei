@@ -2,9 +2,9 @@
     "SME NETWORK": [
         {
             "alias": "sme-network-product-1",
-            "title": "AP761",
-            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE)",
-            "src": "/products/cardimg.png",
+            "title": "S220-8T4S",
+            "description": " S220-8T4S(8*10/100/1000BASE-T ports, 4*GE SFP ports, built-in AC power) ",
+            "src": "/products/SMENETWORK/SMENETWORK1.png",
             "overview": "/products/overview.png",
             "specifications": {
                 "Installation-Type": "Wall pole",
@@ -30,8 +30,8 @@
             },
             "models": [
                 {
-                    "name": "AP761",
-                    "description": "128GB de almacenamiento, 8GB de RAM.",
+                    "name": "S220-8T4S",
+                    "description": "S220-8T4S(8*10/100/1000BASE-T ports, 4*GE SFP ports, built-in AC power)",
                     "specifications": {
                         "Installation-Type": "Wall pole",
                         "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
@@ -56,24 +56,24 @@
                     }
                 },
                 {
-                    "name": "AP761 (Powered via indoor PoE adapter)",
-                    "description": "256GB de almacenamiento, 12GB de RAM."
+                    "name": "S220-48P4S",
+                    "description": "S220-48P4S (48*10/100/1000BASE-T ports(380W PoE+), 4*GE SFP ports, built-in AC power)."
                 },
                 {
-                    "name": "AP761 (Powered via indoor PoE switch)",
-                    "description": "500GB de almacenamiento, 12GB de RAM."
+                    "name": "S220-24P4X",
+                    "description": "S220-24P4X (24*10/100/1000BASE-T ports(400W PoE+), 4*10GE SFP+ ports, built-in AC power)."
                 },
                 {
-                    "name": "AP761 (powered via indoor PoE adapter; electrical port for uplink)",
-                    "description": "500GB de almacenamiento, 12GB de RAM."
+                    "name": "S220-8T4S",
+                    "description": "S220-8T4S(8*10/100/1000BASE-T ports, 4*GE SFP ports, built-in AC power)."
                 }
             ]
         },
         {
             "alias": "sme-network-product-2",
-            "title": "AP761",
-            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE)",
-            "src": "/products/cardimg.png",
+            "title": "S220-8P4S",
+            "description": "S220-8P4S(8*10/100/1000BASE-T ports(125W PoE+),4*GE SFP ports, built-in AC power)",
+            "src": "/products/SMENETWORK/SMENETWORK2.png",
             "overview": "/products/overview.png",
             "specifications": {
                 "Installation-Type": "Wall pole",
@@ -99,73 +99,93 @@
             },
             "models": [
                 {
-                    "name": "AP761",
+                    "name": "S220-24P4X",
                     "description": "Versión clásica con correa de cuero."
                 },
                 {
-                    "name": "AP761 (powered via outdoor PoE adapter; optical port for uplink)",
+                    "name": "S220-8T4S",
                     "description": "Versión clásica con correa de cuero."
                 },
                 {
-                    "name": "AP761 (powered via indoor PoE switch; electrical port for uplink)",
+                    "name": "S220-48P4S",
                     "description": "Versión clásica con correa de cuero."
                 },
                 {
-                    "name": "AP761 (powered via indoor PoE adapter; electrical port for uplink)",
+                    "name": "S220-8P4S",
                     "description": "Versión deportiva con correa de silicona."
                 }
             ]
         },
         {
             "alias": "sme-network-product-3",
-            "title": "AP761 (powered via outdoor PoE adapter; optical port for uplink)",
-            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE).",
-            "src": "/products/cardimg.png",
+            "title": "S220-48T4S",
+            "description": "S220-48T4S (48*10/100/1000BASE-T ports, 4*GE SFP ports, built-in AC power).",
+            "src": "/products/SMENETWORK/SMENETWORK3.png",
             "overview": "/products/overview.png",
             "models": [
                 {
-                    "name": "AP761",
+                    "name": "S220-24T4X",
                     "description": "Pantalla de 10.1 pulgadas, 64GB de almacenamiento."
                 },
                 {
-                    "name": "(powered via outdoor PoE adapter; optical port for uplink)",
+                    "name": "S220-48P4X",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                },
+                {
+                    "name": "S220-48T4X",
+                    "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
+                },
+                {
+                    "name": "S220-48T4S",
                     "description": "Pantalla de 12.9 pulgadas, 128GB de almacenamiento."
                 }
             ]
         },
         {
             "alias": "sme-network-product-4",
-            "title": "AP761",
-            "description": "AP761(11ax outdoor,2+2 dual bands,built-in antenna,BLE).",
-            "src": "/products/cardimg.png",
+            "title": "S220-48T4X",
+            "description": "S220-48T4X (48*10/100/1000BASE-T ports, 4*10GE SFP+ ports, built-in AC power)",
+            "src": "/products/SMENETWORK/SMENETWORK4.png",
             "overview": "/products/overview.png",
             "models": [
                 {
-                    "name": "AP761",
+                    "name": "S220-24T4X",
                     "description": "Versión estándar con estuche de carga."
                 },
                 {
-                    "name": "AP761 (powered via outdoor PoE adapter; optical port for uplink)",
+                    "name": "S220-48P4X",
+                    "description": "Versión Pro con estuche de carga inalámbrica."
+                },
+                {
+                    "name": "S220-48T4S",
+                    "description": "Versión Pro con estuche de carga inalámbrica."
+                },
+                {
+                    "name": "S220-48T4X",
                     "description": "Versión Pro con estuche de carga inalámbrica."
                 }
             ]
         },
         {
             "alias": "sme-network-product-5",
-            "title": "S530-48S4XE",
-            "description": "S530-48S4XE(48*GE SFP ports, 4*10GE SFP+ ports, 2*12GE stack ports, with 1*AC power module)",
-            "src": "/products/cardimg2.png",
+            "title": "S220-24T4X",
+            "description": "S220-24T4X (24*10/100/1000BASE-T ports, 4*10GE SFP+ ports, built-in AC power)",
+            "src": "/products/SMENETWORK/SMENETWORK5.png",
             "models": [
                 {
-                    "name": "S530-24T4XE",
+                    "name": "S220-24T4X",
                     "description": "Procesador Intel Core i5, 256GB SSD."
                 },
                 {
-                    "name": "S530-48S4XE",
+                    "name": "S220-48P4X",
                     "description": "Procesador Intel Core i7, 512GB SSD."
                 },
                 {
-                    "name": "S530-24ST4XE",
+                    "name": "S220-48T4X",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S220-48T4S",
                     "description": "Procesador Intel Core i7, 512GB SSD."
                 }
             ]
