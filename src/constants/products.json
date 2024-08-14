@@ -199,6 +199,84 @@
                     "description": "Procesador Intel Core i7, 512GB SSD."
                 }
             ]
+        },
+        {
+            "alias": "sme-network-product-6",
+            "title": "S220-48P4S",
+            "description": "S220-48P4S (48*10/100/1000BASE-T ports(380W PoE+), 4*GE SFP ports, built-in AC power)",
+            "src": "/products/SMENETWORK/SMENETWORK5.png",
+            "category": "Switch",
+            "series": "Series A",
+            "models": [
+                {
+                    "name": "S220-24P4X",
+                    "description": "Procesador Intel Core i5, 256GB SSD."
+                },
+                {
+                    "name": "S220-8T4S",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S220-48P4S",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S220-8P4S",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                }
+            ]
+        },
+        {
+            "alias": "sme-network-product-7",
+            "title": "S220-48P4X",
+            "description": "S220-48P4X (48*10/100/1000BASE-T ports(380W PoE+), 4*10GE SFP+ ports, built-in AC power)",
+            "src": "/products/SMENETWORK/SMENETWORK5.png",
+            "category": "Switch",
+            "series": "Series A",
+            "models": [
+                {
+                    "name": "S220-24T4X",
+                    "description": "Procesador Intel Core i5, 256GB SSD."
+                },
+                {
+                    "name": "S220-48P4X",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S220-48T4X",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S220-48T4S",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                }
+            ]
+        },
+        {
+            "alias": "sme-network-product-8",
+            "title": "S220-24P4X",
+            "description": "S220-24P4X (24*10/100/1000BASE-T ports(400W PoE+), 4*10GE SFP+ ports, built-in AC power)",
+            "src": "/products/SMENETWORK/SMENETWORK5.png",
+            "category": "Switch",
+            "series": "Series A",
+            "models": [
+                {
+                    "name": "S220-48T4X",
+                    "description": "Procesador Intel Core i5, 256GB SSD."
+                },
+                {
+                    "name": "S220-48T4S",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S220-24P4X",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                },
+                {
+                    "name": "S220-8T4S",
+                    "description": "Procesador Intel Core i7, 512GB SSD."
+                }
+            ]
         }
     ],
     "Data Storage": [
