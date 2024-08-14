@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import products from '@/constants/products.json';
 
@@ -8,6 +8,12 @@ const ProductDetail = ({ params }) => {
     const product = findProductById(id);
     const [selectedModel, setSelectedModel] = useState(null);
     const [selectedSection, setSelectedSection] = useState('Overview');
+
+    useEffect(() => {
+        if (product && product.models && product.models.length > 0) {
+            setSelectedModel(product.models[0]); // Selecciona el primer modelo por defecto
+        }
+    }, [product]);
 
     if (!product) {
         return (
@@ -42,7 +48,7 @@ const ProductDetail = ({ params }) => {
 
                 <div className="w-full lg:w-1/2 text-center lg:text-left">
                     <h1 className="text-4xl font-bold mb-4">
-                        {product.title} {selectedModel ? ` ${selectedModel.name}` : ''}
+                        {selectedModel ? selectedModel.name : product.title}
                     </h1>
                     <p className="text-lg mb-4 text-gray-500 font-bold">{product.description}</p>
 
@@ -107,37 +113,37 @@ const ProductDetail = ({ params }) => {
                             </div>
                         </div>
                     )}
-                
-                {selectedSection === 'Specifications' && (
-                    <div className="bg-gray-100 p-6">
-                        <h2 className="text-2xl font-bold">Product Specifications</h2>
-                        <div className="p-4">
-                            {product.specifications && Object.entries(product.specifications).length > 0 ? (
-                                Object.entries(product.specifications).map(([key, value], index) => (
-                                    <>
-                                        <div key={index} className="mb-2">
-                                            <span className="font-bold">{key}:</span> {value}
-                                        </div>
-                                        <div className="my-6 flex justify-center">
-                                            <hr className="w-full border-t-2 border-gray-300" />
-                                        </div>
-                                    </>
-                                ))
-                            ) : (
-                                <p>No specification for this product</p>
-                            )}
+
+                    {selectedSection === 'Specifications' && (
+                        <div className="bg-gray-100 p-6">
+                            <h2 className="text-2xl font-bold">Product Specifications</h2>
+                            <div className="p-4">
+                                {product.specifications && Object.entries(product.specifications).length > 0 ? (
+                                    Object.entries(product.specifications).map(([key, value], index) => (
+                                        <React.Fragment key={index}>
+                                            <div className="mb-2">
+                                                <span className="font-bold">{key}:</span> {value}
+                                            </div>
+                                            <div className="my-6 flex justify-center">
+                                                <hr className="w-full border-t-2 border-gray-300" />
+                                            </div>
+                                        </React.Fragment>
+                                    ))
+                                ) : (
+                                    <p>No specification for this product</p>
+                                )}
+                            </div>
                         </div>
-                    </div>
-                )}
-                {selectedSection === 'Documentation' && (
-                    <div>
-                        <h2 className="text-2xl font-bold">Product Documentation</h2>
-                        {/* Aca voy a colocar pdfs */}
-                    </div>
-                )}
+                    )}
+                    {selectedSection === 'Documentation' && (
+                        <div>
+                            <h2 className="text-2xl font-bold">Product Documentation</h2>
+                            {/* Aca colocare PDFS */}
+                        </div>
+                    )}
+                </div>
             </div>
         </div>
-        </div >
     );
 };
 
