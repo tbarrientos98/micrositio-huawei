@@ -7,7 +7,7 @@ const ProductCard = ({ src, title, description, alias }) => {
     return (
         <div className="max-w-xs bg-white shadow-md rounded-lg overflow-hidden aspect-[3/5]">
             <Link href={`/products/${alias}`}>
-                <div className="h-1/2 flex items-center justify-center bg-gray-100">
+                <div className="h-1/2 flex items-center justify-center">
                     <Image
                         src={src}
                         alt={title}

@@ -6,6 +6,8 @@
             "description": " S220-8T4S(8*10/100/1000BASE-T ports, 4*GE SFP ports, built-in AC power) ",
             "src": "/products/SMENETWORK/SMENETWORK1.png",
             "overview": "/products/overview.png",
+            "category": "WLAN",
+            "series": "Series A",
             "specifications": {
                 "Installation-Type": "Wall pole",
                 "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
@@ -75,6 +77,8 @@
             "description": "S220-8P4S(8*10/100/1000BASE-T ports(125W PoE+),4*GE SFP ports, built-in AC power)",
             "src": "/products/SMENETWORK/SMENETWORK2.png",
             "overview": "/products/overview.png",
+            "category": "Router",
+            "series": "Series A",
             "specifications": {
                 "Installation-Type": "Wall pole",
                 "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
@@ -119,6 +123,8 @@
         {
             "alias": "sme-network-product-3",
             "title": "S220-48T4S",
+            "category": "Switch",
+            "series": "Series A",
             "description": "S220-48T4S (48*10/100/1000BASE-T ports, 4*GE SFP ports, built-in AC power).",
             "src": "/products/SMENETWORK/SMENETWORK3.png",
             "overview": "/products/overview.png",
@@ -147,6 +153,8 @@
             "description": "S220-48T4X (48*10/100/1000BASE-T ports, 4*10GE SFP+ ports, built-in AC power)",
             "src": "/products/SMENETWORK/SMENETWORK4.png",
             "overview": "/products/overview.png",
+            "category": "WLAN",
+            "series": "Series A",
             "models": [
                 {
                     "name": "S220-24T4X",
@@ -171,6 +179,8 @@
             "title": "S220-24T4X",
             "description": "S220-24T4X (24*10/100/1000BASE-T ports, 4*10GE SFP+ ports, built-in AC power)",
             "src": "/products/SMENETWORK/SMENETWORK5.png",
+            "category": "Switch",
+            "series": "Series A",
             "models": [
                 {
                     "name": "S220-24T4X",
@@ -198,6 +208,8 @@
             "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 64GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+) 4*SAS3.0 port,12*3.5 Inch SAS,SPE26C0212).",
             "src": "/products/dataStorage.png",
             "overview": "/products/overview.png",
+            "category": "Entry Level Storage",
+            "series": "Series A",
             "models": [
                 {
                     "name": "5120-S-L-64G-AC",
@@ -222,6 +234,8 @@
             "title": "5120-S-S-64G-AC",
             "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 32GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,25*2.5 Inch SAS,SPE26C0225)",
             "src": "/products/dataStorage.png",
+            "category": "Entry Level Storage",
+            "series": "Series A",
             "specifications": {
                 "Installation-Type": "Wall pole",
                 "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
@@ -268,6 +282,8 @@
             "title": "5120-S-L-32G-AC",
             "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 32GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,12*3.5 Inch SAS,SPE26C0212)",
             "src": "/products/dataStorage.png",
+            "category": "Entry Level Storage",
+            "series": "Series A",
             "models": [
                 {
                     "name": "5120-S-S-32G-AC",
@@ -292,6 +308,7 @@
             "title": "5120-S-S-32G-AC",
             "description": "5120(2U, Dual Controllers, SAS, AC240V HVDC, 32GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,25*2.5 Inch SAS,SPE26C0225)",
             "src": "/products/dataStorage.png",
+            "category": "Entry Level Storage",
             "models": [
                 {
                     "name": "5120-S-S-32G-AC",
@@ -314,6 +331,8 @@
         {
             "alias": "data-storage-product-5",
             "title": "5220-S-L-64G-AC",
+            "category": "Entry Level Storage",
+            "series": "Series A",
             "description": "5220(2U, Dual Controllers, SAS, AC240V HVDC, 64GB Cache, 8*1Gb ETH,4*10Gb ETH(Including Multi-Mode SFP+),4*SAS3.0 port,12*3.5 Inch SAS,SPE26C0212)",
             "src": "/products/datastorage2.png",
             "specifications": {
@@ -364,6 +383,8 @@
             "title": "IdeaHub B3-86",
             "description": "HUAWEI IdeaHub B3,IHB3-86SA,Intelligent Collaboration Device 86-inch infrared screen,Jade white,overseas",
             "src": "/products/ideaHubProducts.png",
+            "category": "IdeaHub",
+            "series": "Series A",
             "specifications": {
                 "Installation-Type": "Wall pole",
                 "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
@@ -407,6 +428,8 @@
             "description": "HUAWEI IdeaHub Board 2,IHB2-86SU,Intelligent Collaboration Device 86-inch infrared screen,Jade white,overseas",
             "src": "/products/ideaHubProducts.png",
             "overview": "/products/overview.png",
+            "category": "IdeaHubComponents",
+            "series": "Series A",
             "models": [
                 {
                     "name": "IHB2-86SU",
@@ -427,6 +450,8 @@
             "title": "IHB2-75SU",
             "description": "HUAWEI IdeaHub Board 2,IHB2-75SU,Intelligent Collaboration Device 75-inch infrared screen,Jade white,overseas",
             "src": "/products/ideahub3.png",
+            "category": "IdeaHub",
+            "series": "Series A",
             "models": [
                 {
                     "name": "IHB2-86SU",
@@ -447,6 +472,8 @@
             "title": "IHB2-65SU",
             "description": "HUAWEI IdeaHub Board 2,IHB2-65SU,Intelligent Collaboration Device 65-inch infrared screen,Jade white,overseas",
             "src": "/products/ideahub3.png",
+            "category": "Others",
+            "series": "Series A",
             "models": [
                 {
                     "name": "IHB2-86SU",
@@ -467,6 +494,8 @@
             "title": "IdeaHub B2-65",
             "description": "HUAWEI IdeaHub B2 is the next-generation intelligent meeting panel that delivers HD cloud conferencing. With dual Wi-Fi design and an optical anti-blue light feature, it offers an upgraded projection and writing experience perfect for multiple office environments, including meeting rooms, manager offices, and open office areas.",
             "src": "/products/ideahub5.png",
+            "category": "Others",
+            "series": "Series A",
             "specifications": {
                 "Installation-Type": "Wall pole",
                 "Dimensions without packaging (H x W x D) [mm(in.)]": "200 mm x 200 mm x 69 mm",
