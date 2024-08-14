@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Button } from './ui/button'
 import ProductosHome1 from './ProductosHomeUp/ProductosHome1'
 import ProductosHome2 from './ProductosHomeDown/ProductosHome2'
+import SliderLastestNews from './SliderLastestNews/SliderLastestNews'
 
 const containerHome = () => {
 	return (
@@ -23,7 +24,7 @@ const containerHome = () => {
 						<ProductosHome1 />
 					</div>
 				</div>
-				<div className='text-center mb-40'>
+				<div className='text-center mb-20'>
 					<h2 className={styles.title}>Recently Released</h2>
 					<div className="container flex flex-col gap-5">
 						<div className={styles.imageContainer}>
@@ -37,7 +38,7 @@ const containerHome = () => {
 						<ProductosHome2 />
 					</div>
 				</div>
-
+				<SliderLastestNews />
 			</div>
 		</div>
 	)
