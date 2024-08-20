@@ -11,6 +11,7 @@ import { LuMonitorPlay } from "react-icons/lu";
 
 import quickGuide from '@/constants/quickGuide.json'
 import Link from 'next/link';
+import './quickGuide.css'
 
 const iconsMap = {
     LuUserCog: LuUserCog,
@@ -41,7 +42,7 @@ const page = () => {
                 {quickGuide.map((item) => {
                     const IconComponent = iconsMap[item.icon]
                     return (
-                        <div key={item.id} className='cardQuickGuide bg-[#fff] pt-5 px-5 rounded-[16px] w-[32%] flex flex-col justify-between'>
+                        <div key={item.id} className="cardQuickGuide bg-[#fff] pt-5 px-5 rounded-[16px] w-[32%] sm-min-w-full flex flex-col justify-between">
                             <div className='flex flex-col justify-start gap-4'>
                                 <div className='flex flex-row gap-2'>
                                     <IconComponent color='red' size={30} />
