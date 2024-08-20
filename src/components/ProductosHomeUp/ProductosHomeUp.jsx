@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import styles from './ProductosHome1.module.css'
+import styles from './ProductosHomeUp.module.css'
 
 const ProductosHome1 = () => {
     return (
@@ -8,7 +8,7 @@ const ProductosHome1 = () => {
             <div className={`gap-y-20 ${styles.producto1}`}>
                 <div className='gap-1'>
                     <h2 className={styles.homeH2}>S220-24T4X</h2>
-                    <p className="text-gray-400 text-xl"> S220-24T4X (24*10/100/1000BASE-T ports, 4*10GE SFP+ ports, built-in AC power) </p>
+                    <p className={`text-gray-400 text-xl ${styles.productOneP}`}> S220-24T4X (24*10/100/1000BASE-T ports, 4*10GE SFP+ ports, built-in AC power) </p>
                     <button className={styles.btnProducts}>More {'>'}</button>
                 </div>
                 <Image src="/productos/home/S220-24T4X.png" className='gap-y-10' width={300} height={300} alt='' />

@@ -1,21 +1,25 @@
 "use client"
 import BannerStore from '@/components/shared/Banner/BannerStore'
 import Image from 'next/image';
-import React, { useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './slider.css'
 
 const Solution = () => {
-
-
-
 	const [selectedScenario, setSelectedScenario] = useState(null);
+	const [activeId, setActiveId] = useState(null);
 
-	const handleClick = (scenario) => {
+	const handleClick = (scenario, id) => {
 		setSelectedScenario(scenario);
+		setActiveId(id);
 	};
+
+	useEffect(() => {
+		setSelectedScenario(imagesScenario[0].scenario);
+		setActiveId(imagesScenario[0].id);
+	}, []);
 
 	const settings = {
 		dots: false,
@@ -45,7 +49,7 @@ const Solution = () => {
 		},
 	]
 
-	const imagesScenario = [
+	const imagesScenario = useMemo(() => [
 		{
 			id: 1,
 			img: "/imagenes/scenario-images/sme.png",
@@ -122,7 +126,7 @@ const Solution = () => {
 			img: "/imagenes/scenario-images/warehouse.png",
 			title: "Warehouse",
 		},
-	]
+	], [])
 
 	const truncateText = (text, maxLength = 50) => {
 		if (text.length > maxLength) {
@@ -146,18 +150,19 @@ const Solution = () => {
 			</Slider>
 			<div className='container'>
 				<h2 className='text-center text-5xl my-16'>Scenario Solution</h2>
-				<div className='flex justify-evenly'>
+				<div className='flex justify-center flex-wrap'>
 					{imagesScenario.map((item) => (
 						<div
 							key={item.id}
-							className='flex text-center justify-center flex-col transform transition-transform duration-300 hover:scale-110'
+							className={`flex text-center justify-center flex-col ${activeId === item.id ? 'border-b-2 border-black' : ''}`}
 						>
 							<Image
 								src={item.img}
 								alt=''
 								width={150}
 								height={150}
-								onClick={() => handleClick(item.scenario)}
+								onClick={() => handleClick(item.scenario, item.id)}
+								className='transform transition-transform duration-300 hover:scale-110 cursor-pointer'
 							/>
 							<p>{truncateText(item.title, 20)}</p> {/* Título más corto */}
 						</div>
@@ -182,8 +187,7 @@ const Solution = () => {
 								<div
 									className='absolute bottom-0 left-0 p-4 w-full text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300'
 									style={{
-										background: 'linear-gradient(180deg, transparent 41.36%, rgba(0, 0, 0, .4) 81.557%, rgba(0, 0, 0, .84) 99.222%)',
-										borderRadius: '0 0 10px 10px'
+										background: 'linear-gradient(180deg, transparent 41.36%, rgba(0, 0, 0, .4) 81.557%, rgba(0, 0, 0, .84) 99.222%)'
 									}}
 								>
 									<h4 className='text-lg font-semibold'>{truncateText(scenarioItem.title, 30)}</h4>

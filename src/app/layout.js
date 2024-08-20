@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar/Navbar"
 import Footer from "@/components/shared/Footer/Footer"
+import StaticButtons from "@/components/shared/StaticButtons/StaticButtons";
 
 import { Inter as FontSans } from "next/font/google"
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         )}
       >
         <Navbar />
+        <StaticButtons />
         {children}
         <Footer />
       </body>

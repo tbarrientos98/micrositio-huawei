@@ -67,7 +67,7 @@ const SliderLastestNews = () => {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 500,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,

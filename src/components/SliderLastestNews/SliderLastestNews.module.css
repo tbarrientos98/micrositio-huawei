@@ -4,31 +4,24 @@
 }
 
 .slick-slider {
-    width: 520px !important;
+    /* width: 520px !important; */
 }
 
-/* .slick-active
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    transition: .5s ease;
-} */
 
 .sliderCard {
     background-color: #fff;
     border-radius: 15px;
     width: 580px !important;
-    display: flex!important;
-    justify-content: center;
-    flex-direction: column;
+    /* display: flex !important; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
     min-height: 550px;
 }
 
 .sliderImg {
     border-radius: 16px 16px 0px 0px;
-    width: inherit;
+    width: auto;
+    min-height: 340px;
 }
 
 /* CONTENEDOR DE SLIDERH2 Y SLIDERH3 */
@@ -44,7 +37,7 @@ div {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    width: 90%;
+    /* width: 90%; */
 }
 
 /* CONTENEDOR DE SLIDERH2 Y SLIDERH3 */
@@ -61,7 +54,7 @@ div {
     white-space: nowrap;
 }
 
-.sliderP{
+.sliderP {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -70,15 +63,47 @@ div {
 
 
 .carousel {
-    display: flex!important;
+    display: flex !important;
     width: 76em;
-    gap: 10px!important;
+    gap: 10px !important;
 }
 
+@media (min-width: 1200px) {
+    .contenedorSlider{
+        display: flex!important;
+        justify-content: center!important;
+        gap: 15px;
+    }
+    
+    /* .slick-slide {
+        width: 100%!important;
+    } */
 
+    .slick-active div {
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; */
+        transition: .5s ease;
+    }
 
-/* .contenedorSlider{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-} */
+    /* .carousel {
+        display: flex !important;
+        width: 100%;
+        gap: 10px !important;
+        display: flex;
+        justify-content: center;
+    } */
+    .slick-slide.slick-active.slick-current > * {
+        /* Aquí van los estilos para el hijo */
+        display: flex!important;
+        justify-content: center!important;
+        flex-direction: row!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .sliderCard{
+        width: 70%;
+    }
+}

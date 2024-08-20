@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-import styles from './ProductosHome2.module.css'
+import styles from './ProductosHomeDown.module.css'
 
 const ProductosHome2 = () => {
-  return (
-    <div className={styles.containerProductosHome}>
+    return (
+        <div className={styles.containerProductosHome}>
             <div className={`gap-y-20 ${styles.producto1}`}>
                 <div className='gap-1'>
                     <h2 className={styles.homeH2}>OceanStor 2220 (32 GB Cache 2.5 Inch SAS)</h2>
-                    <p className="text-gray-400 text-xl">Huawei New-Gen OceanStor 2220 Hybrid Flash Storage System is designed for MSMEs, featuring convenient and efficient data infrastructure. It fully exploits the value of enterprise data, and helps enterprises go digital.</p>
+                    <p className={`text-gray-400 text-xl ${styles.productOneP}`}>Huawei New-Gen OceanStor 2220 Hybrid Flash Storage System is designed for MSMEs, featuring convenient and efficient data infrastructure. It fully exploits the value of enterprise data, and helps enterprises go digital.</p>
                     <button className={styles.btnProducts}>More {'>'}</button>
                 </div>
                 <Image src="/productos/home/OceanStor-2220.png" className='gap-y-10' width={300} height={300} alt='' />
@@ -40,7 +40,7 @@ const ProductosHome2 = () => {
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default ProductosHome2
