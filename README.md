@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📌 1. frontend-gamer - E-commerce de Videojuegos
+<p align="center"> <img src="https://img.icons8.com/color/96/000000/steam.png" alt="Logo" width="80"/> </p>
+Descripción:
+¡Bienvenido a GamerShop! 🎮 Un e-commerce de videojuegos desarrollado con React y Vite, donde los usuarios pueden explorar un catálogo de juegos, filtrar por categorías y simular una compra.
 
-## Getting Started
+🚀 Tecnologías
+React ⚛️
 
-First, run the development server:
+Vite 🚀
 
-```bash
+CSS (sin librerías externas) 🎨
+
+React Router (para navegación) 🔄
+
+📦 Instalación
+Clona el repositorio:
+
+bash
+Copy
+git clone https://github.com/tbarrientos98/frontend-gamer.git
+cd frontend-gamer
+Instala las dependencias:
+
+bash
+Copy
+npm install
+Ejecuta el proyecto:
+
+bash
+Copy
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abre tu navegador en http://localhost:5173.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Estructura del Proyecto
+Copy
+src/
+├── components/  # Componentes reutilizables (Navbar, GameCard, etc.)
+├── pages/       # Páginas principales (Home, Cart, Category)
+├── data/        # Datos mock de juegos (games.json)
+└── App.jsx      # Configuración de rutas
+🔍 ¿Qué puedes hacer?
+✅ Ver catálogo de juegos.
+✅ Filtrar por categorías.
+✅ Añadir juegos al carrito.
+✅ Simular checkout (sin backend real).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📝 Notas
+Los datos son simulados (games.json).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+No requiere backend, pero puedes integrarlo con Firebase o una API.
